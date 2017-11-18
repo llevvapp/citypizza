@@ -117,9 +117,9 @@
         font-size: 20px;
         text-decoration: underline;
         padding-top: 20px;
-        box-sizing: border-box
+        box-sizing: border-box;
     }
-    
+.li a {text-decoration: none;color:black}
     .box {
         margin-right: 65px
     }
@@ -159,18 +159,20 @@
     }
     
     .footer {
-        height: 300px;
+        height: 350px;
         background: #fff;
         padding: 64px 40px 30px 0;
         width: 1100px;
         margin-left: auto;
         margin-right: auto;
-        display: flex;box-sizing: border-box
+        display: flex;
+        box-sizing: border-box
     }
     
     .footer img {
-        width: 92px;
-        height: 92px;margin-left:10px;box-sizing: border-box
+        height: 92px;
+        margin-left: 10px;
+        box-sizing: border-box
     }
     
     .company {
@@ -178,5 +180,31 @@
         font-size: 15px;
         padding-left: 140px;
         font-size: 15px;
-        line-height: 22px;box-sizing: border-box
+        line-height: 22px;
+        box-sizing: border-box
     }
+    
+    .social {
+        margin: 0;
+        height: 47px;
+        padding: 21px 0 0 0;
+        background: #000;
+        margin-top: 50px;
+        display: flex;
+        color: #fff;
+        font-size: 12px;
+    }
+    
+    .social img {
+        height: 19px;
+        width: 67px;
+        padding-top: 10px;
+        padding-left: 350px
+    }
+    
+    .social p {
+        margin: 0;
+        padding-left: 140px;
+        padding-top: 10px
+    }
+h2 {color:black;padding-left:10px;padding-top:100px}
